@@ -5,7 +5,7 @@
   "main": "main.ts",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/main.js",
+    "start": "pm2 start ecosystem.config.json --no-daemon",
     "dev": "concurrently \"tsc --watch\" \"nodemon -q dist/main.js\"",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
