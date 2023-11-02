@@ -1,0 +1,19 @@
+{
+  "name": "express-ts-mongodb-starter",
+  "version": "1.0.0",
+  "description": "This is a boilerplate for a node express typescript mongoDB.",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zharrane/express-typescript-mongodb-starter.git"
+  },
+  "author": "zharrane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zharrane/express-typescript-mongodb-starter/issues"
+  },
+  "homepage": "https://github.com/zharrane/express-typescript-mongodb-starter#readme"
+}
