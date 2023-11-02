@@ -1,0 +1,14 @@
+{
+  "env": {
+    "node": true,
+    "es2021": true
+  },
+
+  "plugins": ["security", "prettier"],
+  "extends": ["standard-with-typescript", "plugin:security/recommended", "plugin:prettier/recommended", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": { "no-console": "error" }
+}
