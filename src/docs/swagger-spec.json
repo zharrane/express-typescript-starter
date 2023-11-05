@@ -1,0 +1,19 @@
+{
+  "info": {
+    "title": "Express typescript starter",
+    "version": "1.0.0",
+    "description": "This is Express typescript starter"
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "description": "Returns the homepage",
+        "responses": {
+          "200": {
+            "description": "hello world"
+          }
+        }
+      }
+    }
+  }
+}

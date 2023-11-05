@@ -1,4 +1,7 @@
 # Convert text file line endings to lf
 * text eol=lf
+
 *.ts text
 *.js text
+*.json text
+*.yml  text
